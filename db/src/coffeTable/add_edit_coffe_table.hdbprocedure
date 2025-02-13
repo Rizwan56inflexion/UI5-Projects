@@ -1,0 +1,16 @@
+PROCEDURE "ADD_EDIT_COFFE_TABLE"(IN "name" NVARCHAR(256),IN "color" NVARCHAR(256),IN "woodType" NVARCHAR(256),IN "status" INTEGER,OUT EXMESSAGE NVARCHAR(256))
+AS 
+BEGIN
+  INSERT INTO "coffe_table"(
+        "name",
+        "color",
+        "woodType",
+        "status"
+       
+    )VALUES(
+        "name",
+        "color",
+        "woodType",
+        "status"
+    );
+END;

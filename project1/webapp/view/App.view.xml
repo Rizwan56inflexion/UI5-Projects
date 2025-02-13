@@ -1,0 +1,13 @@
+<mvc:View controllerName="project1.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="app">
+     <Page id="page" title="{i18n>title}">
+     <content>
+       <!-- <Text id="hell" text="Hello CAP">
+       </Text> -->
+     </content>
+    </Page>
+    </App>
+</mvc:View>
